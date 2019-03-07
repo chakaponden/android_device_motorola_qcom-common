@@ -10,7 +10,16 @@ LOCAL_SRC_FILES := \
     CameraWrapper.cpp
 
 LOCAL_SHARED_LIBRARIES := \
+    android.hidl.token@1.0-utils \
+    android.hardware.graphics.bufferqueue@1.0 \
     libhardware liblog libcamera_client libutils
+
+LOCAL_HEADER_LIBRARIES := \
+    libnativebase_headers
+
+LOCAL_STATIC_LIBRARIES := \
+    libbase \
+    libarect
 
 LOCAL_MODULE_PATH := $(TARGET_OUT_SHARED_LIBRARIES)/hw
 LOCAL_MODULE := camera.$(TARGET_BOARD_PLATFORM)
