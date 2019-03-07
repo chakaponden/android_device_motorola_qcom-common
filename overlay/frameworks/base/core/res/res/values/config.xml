@@ -168,10 +168,6 @@
         <item>0</item>
         <item>25</item>
     </integer-array>
-    <integer-array name="config_safeModeDisabledVibePattern">
-        <item>0</item>
-        <item>40</item>
-    </integer-array>
     <integer-array name="config_safeModeEnabledVibePattern">
         <item>0</item>
         <item>40</item>
