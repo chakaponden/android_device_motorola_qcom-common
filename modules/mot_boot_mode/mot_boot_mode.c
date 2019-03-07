@@ -21,6 +21,7 @@
 
 #include <cutils/properties.h>
 #include <cutils/log.h>
+#include <android/log.h>
 
 #define MOTO_PU_REASON_CHARGE_ONLY    "0x00000100"
 #define MOTO_PU_REASON_CPCAP_RESET    "0x00040000"
